@@ -18,8 +18,7 @@ class User:
     def herokudb(self):
         from db import Database
         mydb = Database()
-        return psycopg2.connect(host=mydb.Host, database=mydb.Database, user=mydb.User, password=mydb.Password,
-                                sslmode='require')
+        return psycopg2.connect(host=mydb.Host, database=mydb.Database, user=mydb.User, password=mydb.Password, sslmode='require')
 
     def apagarusr(self):
         try:
