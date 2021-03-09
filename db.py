@@ -1,5 +1,4 @@
 class Database:
-
     def __init__(self):
         self.Host = "ec2-54-155-35-88.eu-west-1.compute.amazonaws.com"
         self.Database = "d6ttuoeki1a7o9"
